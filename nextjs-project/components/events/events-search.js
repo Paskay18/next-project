@@ -27,8 +27,8 @@ export default function EventSearch (props) {
                     </select>
                 </div>
                 <div className={classes.control} >
-                   <label htmlFor="month" ref={monthInputRef}>Month</label>
-                   <select id='id'>
+                   <label htmlFor="month" >Month</label>
+                   <select id='id'  ref={monthInputRef}>
                     <option value="1">January</option>
                     <option value="2">February</option>
                     <option value="3">March</option>
